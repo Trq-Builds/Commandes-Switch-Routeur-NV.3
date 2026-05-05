@@ -7,7 +7,7 @@
 
 ---
 
-## 🔑 Accès & Modes
+## 🔑︲Accès & Modes
 
 ### `enable`
 
@@ -31,7 +31,7 @@
 
 ---
 
-## 🏷️ Identification
+## 🏷️︲Identification
 
 ### `hostname SW1`
 
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚫 Confort & stabilité
+## 🚫︲Confort & stabilité
 
 ### `no ip domain-lookup`
 
@@ -60,7 +60,7 @@
 
 ---
 
-## 🔐 Sécurité de base
+## 🔐︲Sécurité de base
 
 ### `enable secret PASSWORD`
 
@@ -88,7 +88,7 @@
 
 ---
 
-## 📢 Avertissement légal
+## 📢︲Avertissement légal
 
 ### `banner motd # MESSAGE`
 
@@ -102,7 +102,7 @@
 
 ---
 
-## 🔌 Accès console (local)
+## 🔌︲Accès console (local)
 
 ### `line console 0`
 
@@ -131,7 +131,7 @@
 
 ---
 
-## 🌐 Accès distant (SSH)
+## 🌐︲Accès distant (SSH)
 
 ### `line vty 0 4`
 
@@ -184,7 +184,7 @@
 
 ---
 
-## 💾 Sauvegarde
+## 💾︲Sauvegarde
 
 ### `copy running-config startup-config`
 

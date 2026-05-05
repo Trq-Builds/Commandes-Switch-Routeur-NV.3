@@ -16,7 +16,7 @@
 * **À savoir** :
 
   * Sans ça → accès très limité
-  * C’est la première commande à faire
+  * **C’est la première commande à faire !!!**
 
 ---
 

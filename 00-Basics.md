@@ -14,9 +14,10 @@
 * **But** : passer en mode privilégié (`#`)
 * **Effet réel** : donne accès à toutes les commandes critiques (config, debug, save)
 * **À savoir** :
-
   * Sans ça → accès très limité
-  * **C’est la première commande à faire !!!**
+  
+> [!CAUTION]
+>  C’est la première commande à faire !!!
 
 ---
 

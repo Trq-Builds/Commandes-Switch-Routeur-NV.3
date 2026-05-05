@@ -1,11 +1,9 @@
+# 00 - BASICS (Fondations Cisco IOS)
+
 ---
 
 - Référence du routeur : Cisco 4221
 - Référence du switch : Cisco Catalyst 3752 v2 Series
-
----
-
-# 00 - BASICS (Fondations Cisco IOS)
 
 ---
 

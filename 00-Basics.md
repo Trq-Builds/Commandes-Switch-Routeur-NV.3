@@ -9,7 +9,7 @@
 
 ## 🔑 Accès & Modes
 
-### enable
+### `enable`
 
 * **But** : passer en mode privilégié (`#`)
 * **Effet réel** : donne accès à toutes les commandes critiques (config, debug, save)
@@ -20,7 +20,7 @@
 
 ---
 
-### configure terminal
+### `configure terminal`
 
 * **But** : entrer en mode configuration globale
 * **Effet réel** : permet de modifier la configuration en RAM (active immédiatement)
@@ -33,7 +33,7 @@
 
 ## 🏷️ Identification
 
-### hostname SW1
+### `hostname SW1`
 
 * **But** : nommer l’équipement
 * **Effet réel** :
@@ -48,7 +48,7 @@
 
 ## 🚫 Confort & stabilité
 
-### no ip domain-lookup
+### `no ip domain-lookup`
 
 * **But** : désactiver la résolution DNS automatique
 * **Effet réel** :
@@ -62,7 +62,7 @@
 
 ## 🔐 Sécurité de base
 
-### enable secret PASSWORD
+### `enable secret PASSWORD`
 
 * **But** : définir le mot de passe du mode privilégié
 * **Effet réel** :
@@ -75,7 +75,7 @@
 
 ---
 
-### service password-encryption
+### `service password-encryption`
 
 * **But** : chiffrer les mots de passe dans la config
 * **Effet réel** :
@@ -90,7 +90,7 @@
 
 ## 📢 Avertissement légal
 
-### banner motd # MESSAGE
+### `banner motd # MESSAGE`
 
 * **But** : afficher un message avant connexion
 * **Effet réel** :
@@ -104,25 +104,25 @@
 
 ## 🔌 Accès console (local)
 
-### line console 0
+### `line console 0`
 
 * **But** : configurer l’accès via câble console
 * **Effet réel** :
 
   * sécurise accès physique
 
-### password PASSWORD
+### `password PASSWORD`
 
 * **But** : définir mot de passe console
 
-### login
+### `login`
 
 * **But** : activer la demande de mot de passe
 * **Piège critique** :
 
   * sans `login` → le mot de passe est ignoré
 
-### logging synchronous
+### `logging synchronous`
 
 * **But** : éviter que les logs coupent la saisie
 * **Effet réel** :
@@ -133,13 +133,13 @@
 
 ## 🌐 Accès distant (SSH)
 
-### line vty 0 4
+### `line vty 0 4`
 
 * **But** : configurer accès distant (5 connexions simultanées)
 
 ---
 
-### transport input ssh
+### `transport input ssh`
 
 * **But** : autoriser uniquement SSH
 * **Effet réel** :
@@ -151,7 +151,7 @@
 
 ---
 
-### ip domain-name lab.local
+### `ip domain-name lab.local`
 
 * **But** : définir un domaine
 * **Effet réel** :
@@ -160,7 +160,7 @@
 
 ---
 
-### crypto key generate rsa
+### `crypto key generate rsa`
 
 * **But** : générer clés RSA
 * **Effet réel** :
@@ -172,7 +172,7 @@
 
 ---
 
-### username admin secret PASSWORD
+### `username admin secret PASSWORD`
 
 * **But** : créer utilisateur local
 * **Effet réel** :
@@ -186,7 +186,7 @@
 
 ## 💾 Sauvegarde
 
-### copy running-config startup-config
+### `copy running-config startup-config`
 
 * **But** : sauvegarder la config
 * **Effet réel** :

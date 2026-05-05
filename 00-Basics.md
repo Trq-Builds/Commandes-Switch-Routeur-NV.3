@@ -2,8 +2,8 @@
 
 ---
 
-- Référence du routeur : Cisco 4221
-- Référence du switch : Cisco Catalyst 3752 v2 Series
+- Référence du routeur : `Cisco 4221`
+- Référence du switch : `Cisco Catalyst 3752 v2 Series`
 
 ---
 

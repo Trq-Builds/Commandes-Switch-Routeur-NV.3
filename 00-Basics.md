@@ -7,7 +7,7 @@
 
 ---
 
-## Comment administrer le switch
+## `🔑`︲Comment administrer le switch
 
 1. Connecter le câble RJ45 au switch sur le port **Console** situé à l’arrière.
 2. Connecter ensuite l’une des fiches blanches reliées au poteau sur les plots.

@@ -7,6 +7,15 @@
 
 ---
 
+## Comment administrer le switch
+
+1. Connecter le câble RJ45 au switch sur le port **Console** situé à l’arrière.
+2. Connecter ensuite l’une des fiches blanches reliées au poteau sur les plots.
+3. Utiliser ensuite le câble gris RJ45 vers USB-C pour le connecter à l’ordinateur.
+4. Ouvrir PuTTY puis se connecter au switch en choisissant le bon port COM.
+
+---
+
 ## `🔑`︲Accès & Modes
 
 ### `enable`
